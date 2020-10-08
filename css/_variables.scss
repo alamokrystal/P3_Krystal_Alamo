@@ -1,0 +1,10 @@
+$nav-color:rgba(225,190,231 ,1) ;
+$main-color: rgba(209,196,233, 1);
+$text-color: rgba(74,20,140, 1);
+$activebutton-color: rgba(56,20,99,1);
+$border-color:rgba(239,154,154,1);
+
+@mixin border {
+    border-color:rgba(239,154,154,1);
+    border-style: double;
+}

@@ -3,33 +3,78 @@
 
 <head>
 <html lang="en">
-<link rel="stylesheet" href="normalize.css" type="text/css">
-<link rel="stylesheet" href="stylesheet.css" type="text/css">
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
 <script src="https://kit.fontawesome.com/f11d128184.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
-<nav>
-    <ul>
-        <li><a href= "home.html">Home</a></li>
-        <li><a href= "about_me.html">About Me</a></li>
-        <li><a href= "Portfolio.html">Portfolio</a></li>
-        <li><a href= "Contact_me.html">Contact</a></li>
-    </ul>
-</nav>
+<body> <a name= "top"></a>
 
-<Main>
-  <!--  img 
-     bio  -->  
-   
-</Main>
+    <header>
+        <nav class="main-nav">
+          <ul class="navigation">
+              <li><a class="navbutton" href="home.html">Home</a></li>
+              <li><a class="navbutton" href="about_me.html">About Me</a></li>
+              <li><a class="navbutton" href="Portfolio.html">Portfolio</a></li>
+              <li><a class="navbutton" href="Contact_me.html">Contact</a></li>
+          </ul>
+      </nav>
+      
+      <nav class="hamburger-menu__wrapper">
+          <div class="hamburger-menu">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+      
+              <ul class="ham-nav">
+                      <li><a  href="home.html">Home</a></li>
+                      <li><a  href="about_me.html">About Me</a></li>
+                      <li><a  href="Portfolio.html">Portfolio</a></li>
+                      <li><a  href="Contact_me.html">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+      </header>
+
+<main>
+ <div class= "page_text"> 
+     <h1>Who the heck are you?</h1> 
+     
+    <section>
+        <h2>Im Krystal</h2> 
+        <img  src="images/krystal.jpg" class="about" alt="my photo">
+        <p>A 25 year old "Jack of MOST Trades" 
+            living in the great NYC just trying to make it big like everyone else. 
+            And maybe try to find the best pizza while Im at it...(P.S: Its all the best!) </p> 
+    </section>
 
 
+        <h1>What the heck do you do?</h1>
 
+    <section>
+        <p>OH BOY! What dont I do.</p>
+        <p>A dabbler (beginner if you will) in Web Development <br>
+        Working in HTML CSS and now SASS</p>
+        <i class="fas fa-desktop"></i>
+        <i class="far fa-file-code"></i>
+        
 
+        <p>An ARTIST (if I do say so myself) <br>
+            Working in printmaking Digital Art and Resin</p>
+        <img src="images/print.jpg" class="about" alt="my art">
+        <img src="images/skull.jpg" class="about" alt="resin">
+    </section>
 
+ </div>
 
+</main>
 
+<footer>
+    <a href="#top">Back to top of page</a>
+    <i class="fab fa-twitter-square"></i>
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-git-square"></i>
+</footer>
 
 </body>
 </html>
